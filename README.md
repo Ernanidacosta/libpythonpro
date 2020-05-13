@@ -4,8 +4,9 @@ Módulo para exemplificar construção de projetos Python no curso PyTools
 
 Nesse curso é ensinado como contribuir com projetos de código aberto
 
-Link para o curso [Python Pro](https://python.pro.br)
 [![Build Status](https://travis-ci.com/Ernanidacosta/libpythonpro.svg?branch=master)](https://travis-ci.com/Ernanidacosta/libpythonpro)
+
+Link para o curso [Python Pro](https://python.pro.br)
 
 Suportada versão 3 de Python
 
@@ -13,7 +14,6 @@ Para instalar:
 
 pip install pipenv
 pipenv install --dev
-
 
 Para conferir qualidade de código:
 
