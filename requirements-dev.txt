@@ -9,10 +9,12 @@ more-itertools==4.1.0
 six==1.11.0
 attrs==18.1.0
 pluggy==0.13.1
-pytest==3.5.1
+pytest==5.4.2
 
-#Converage
-coverage==4.5.1
-pytest-cov==2.5.1
+#Coverage
+
+coverage==5.1
+pytest-cov==2.9.0
+
 
 -r requirements.txt
