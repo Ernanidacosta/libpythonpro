@@ -12,3 +12,7 @@ def test_buscar_avatar():
     github_api.requests.get = Mock(return_value=resp_mock)
     url = github_api.buscar_avatar('ernanidacosta')
     assert 'https://avatars3.githubusercontent.com/u/11460643?v=4' == url
+
+def test_buscar_avatar_integracao():
+    url = github_api.buscar_avatar('ernanidacosta')
+    assert 'https://avatars3.githubusercontent.com/u/11460643?v=4' == url
