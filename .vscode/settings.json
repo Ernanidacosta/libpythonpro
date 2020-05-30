@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "/home/ernani/.pyenv/shims/python"
+    "python.pythonPath": "/home/ernani/.pyenv/shims/python",
+    "python.testing.pytestArgs": [
+        "libpythonpro"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
