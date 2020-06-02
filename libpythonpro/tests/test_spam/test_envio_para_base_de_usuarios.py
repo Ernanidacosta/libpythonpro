@@ -54,7 +54,7 @@ def test_parametros_de_spam(sessao):
         'Aula Python Pro',
         'Modulo PyTools'
     )
-    enviador.enviar.assert_called_once_with (
+    enviador.enviar.assert_called_once_with(
         'ernanidacosta@gmail.com',
         'kakizon@gmail.com',
         'Aula Python Pro',

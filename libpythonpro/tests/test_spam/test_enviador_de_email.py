@@ -7,6 +7,7 @@ def test_criar_enviador_de_email():
     enviador = Enviador()
     assert enviador is not None
 
+
 @pytest.mark.parametrize(
     'remetente',
     ['ernanidacosta@gmail.com', 'foo@bar.com']
@@ -26,7 +27,6 @@ def test_remetente(remetente):
     'remetente',
     ['', 'foo']
 )
-
 def test_remetente_invalido(remetente):
     enviador = Enviador()
     with pytest.raises(EmailInvalido):
@@ -36,5 +36,3 @@ def test_remetente_invalido(remetente):
             'Cursos Python Pro',
             'Primeira Turma Aberta'
         )
-
-
