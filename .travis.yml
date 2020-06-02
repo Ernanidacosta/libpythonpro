@@ -6,7 +6,7 @@ env:
     - PIPENV_VENV_IN_PROJECT=1
     - PIPENV_IGNORE_VIRTUALENVS=1    
 install:
-  - pip install - q pipenv codecov
+  - pip install -q pipenv codecov
   - pipenv sync --dev
 script:
   - flake8
