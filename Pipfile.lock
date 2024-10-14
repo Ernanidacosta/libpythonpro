@@ -78,7 +78,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.2.7"
+            "version": "==7.6.3"
         },
         "flake8": {
             "hashes": [
